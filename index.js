@@ -44,8 +44,10 @@ class cvsToJSONTransformer extends Transform {
       next()
     }
   
-  }
- 
+}
+
+export default cvsToJSONTransformer;
+
 
 const src = fs.createReadStream('./sample.csv', {encoding: 'utf-8'});
 const dest = fs.createWriteStream('./sample.txt');
