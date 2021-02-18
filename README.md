@@ -1,1 +1,1 @@
-A simple csv to json parser using streams.
+A simple to use csv to json parser implemented using Node.js Streams
